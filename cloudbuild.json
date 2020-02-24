@@ -1,17 +1,16 @@
 {
     "steps": [
       {
-        "name": "gcr.io/cloud-builders/yarn",
+        "name": "gcr.io/cloud-builders/npm",
         "args": [
           "install"
         ]
       },
       {
-        "name": "gcr.io/cloud-builders/yarn",
+        "name": "gcr.io/cloud-builders/npm",
         "args": [
           "test"
         ]
       }
     ]
   }
-  
